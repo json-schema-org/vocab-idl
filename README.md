@@ -6,7 +6,7 @@
 </p>
 
 ## Charter
-To help explain the process, the project, the SIG and the community, in terms of how they all relate please refer to the [charter](./charter.md).
+To help explain the process, the project, the SIG and the community, in terms of how they all relate, please refer to the [charter](./charter.md).
 
 ## Code of Conduct
 Respect each other. Choose empathy over judgement. Act according to the [Code of Conduct](./CODE_OF_CONDUCT.md).
