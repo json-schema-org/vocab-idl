@@ -35,8 +35,8 @@ The result is as follows:
     ```
     See the example:
     ```
-    origin	https://github.com/i000000/asyncapi.git (fetch)
-    origin	https://github.com/i000000/asyncapi.git (push)
+    origin	https://github.com/i000000/json-schema-idl.git (fetch)
+    origin	https://github.com/i000000/json-schema-idl.git (push)
     ```
 
 2. Specify a new remote upstream repository to synchronize with the fork:
@@ -45,7 +45,7 @@ The result is as follows:
     ```
     See the example:
     ```
-    git remote add upstream https://github.com/asyncapi/asyncapi.git
+    git remote add upstream https://github.com/json-schema-org/json-schema-idl.git
     ```
 3. Run the `git fetch upstream master` command to fetch all branches.
 4. Set up the local `master` branch to track the remote `master` branch from the upstream repository:
