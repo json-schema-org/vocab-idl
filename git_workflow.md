@@ -47,22 +47,22 @@ The result is as follows:
     ```
     git remote add upstream https://github.com/json-schema-org/json-schema-idl.git
     ```
-3. Run the `git fetch upstream master` command to fetch all branches.
-4. Set up the local `master` branch to track the remote `master` branch from the upstream repository:
+3. Run the `git fetch upstream main` command to fetch all branches.
+4. Set up the local `main` branch to track the remote `main` branch from the upstream repository:
     ```
-    git branch -u upstream/master master
+    git branch -u upstream/main main
     ```
 
-Now, each time you rebase or check out the `master` branch, you refer to the `master` branch of the upstream repository. In other words, when you create a branch from local up-to-date `master` means creating a branch from latest upstream `master`.
+Now, each time you rebase or check out the `main` branch, you refer to the `main` branch of the upstream repository. In other words, when you create a branch from local up-to-date `main` means creating a branch from latest upstream `main`.
 
-To verify that your local `master` branch points to the `upstream/master`, run the `git branch -vv` command. The result is similar to the following:
+To verify that your local `main` branch points to the `upstream/main`, run the `git branch -vv` command. The result is similar to the following:
 ```
-* master           c2226e0 [upstream/master] Update the README.md document
+* main           c2226e0 [upstream/main] Update the README.md document
 ```
 
 ### Working on a Fork in GitHub UI
 
-In case you are a contributor who suggests minor changes using GitHub UI, it is recommended to use a [Pull bot](https://probot.github.io/apps/pull). This bot keeps your fork up to date by creating and merging a pull request with latest changes into the `master `branch of your fork.
+In case you are a contributor who suggests minor changes using GitHub UI, it is recommended to use a [Pull bot](https://probot.github.io/apps/pull). This bot keeps your fork up to date by creating and merging a pull request with latest changes into the `main `branch of your fork.
 
 ## Start Contributing
 
@@ -76,7 +76,7 @@ Follow these steps:
 
 3. Push the changes to the remote forked repository.
 
-    >**NOTE:** Before you push local changes, make sure you are on the branch you are currently working on. Do not push any changes from the `master` branch.
+    >**NOTE:** Before you push local changes, make sure you are on the branch you are currently working on. Do not push any changes from the `main` branch.
 
     If you push local changes from the terminal to your remote fork for the first time, use this command:
     ```
@@ -84,4 +84,4 @@ Follow these steps:
     ```
     Use the `git push` command to push any further commits made on your local branch to a remote repository.  
 
-4. Create a pull request from the branch of your forked repository to the `master` branch of the upstream repository and wait for the maintainers' review.
+4. Create a pull request from the branch of your forked repository to the `main` branch of the upstream repository and wait for the maintainers' review.
