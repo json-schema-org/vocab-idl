@@ -29,7 +29,7 @@ Any SIG members that do not actively participate in discussions or maintain the 
 The SIG group is currently made up of the following individuals. Feel free to submit an issue requested to be added. 
 
 - Jonas Lagoni ([Senior Software Engineer at Postman, working on AsyncAPI](https://www.linkedin.com/in/jonaslagoni/))
-- Jason?
+- [Jason Desrosiers](https://github.com/jdesrosiers)
 
 ## Section 4: Definitions
 
