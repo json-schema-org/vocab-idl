@@ -1,5 +1,5 @@
 <h2 align="center">
-  JSON Schema interface description language
+  JSON Schema interface description language vocabulary
 </h2>
 <p align="center">
   <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
@@ -17,4 +17,3 @@ In case contributions are for changing content on git, please refer to [git work
 Any contributions that changes the content of this repository MUST go through pull requests.
 
 We use [All Contributors](https://allcontributors.org) specification to handle recognitions. You can help us out in many different ways. Just check out [this](https://allcontributors.org/docs/en/emoji-key) list of possible contributions. All of this is a contribution! 
-
