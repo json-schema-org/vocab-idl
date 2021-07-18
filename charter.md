@@ -13,7 +13,9 @@ Implementations are neither in nor out of scope for the project, but it is not a
 
 ## Section 2: Relationship with JSON Schema organization.
 
-The project is not involved with the actual JSON Schema specification, they are nothing more than a user of it. The JSON Schema organization may force this project to comply with the organization-level code of conduct, workflow changes, etc. 
+The project is not directly involved with the actual JSON Schema specification development, however contributors may be contributors of both. The JSON Schema organization and community may provide guidance and review on vocabulary proposals and proposed releases. It is expected that this project and resulting artifacts will be maintained by teams other than those part of the JSON Schema organization.
+
+The JSON Schema organization will force this project to comply with the organization-level code of conduct if required, and may require other project level changes such as workflow changes.
 
 ## Section 3: The Special interest group
 
