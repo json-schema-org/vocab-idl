@@ -5,8 +5,11 @@
   <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
 </p>
 
+## Status
 
-**The project is only first getting started**
+While the project is only first getting started, the initial agenda is:
+1. Define a processing model for interpreting JSON Schema to data definitions.
+    * Define code generation vocabulary as needed, while the processing model is being defined
 
 ## Charter
 To help explain the process, the project, the SIG and the community, in terms of how they all relate, please refer to the [charter](./charter.md).
