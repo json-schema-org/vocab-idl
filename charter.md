@@ -11,6 +11,8 @@ Help and clarify how JSON Schema can be interpreted from validation rules to dat
 
 Implementations are neither in nor out of scope for the project, but it is not a high prioritization.
 
+A test suite is expected to be produced along side the work, to better discuss and formulate specific cases.
+
 ## Section 2: Relationship with JSON Schema organization.
 
 The project is not directly involved with the actual JSON Schema specification development, however contributors may be contributors of both. The JSON Schema organization and community may provide guidance and review on vocabulary proposals and proposed releases. It is expected that this project and resulting artifacts will be maintained by teams other than those part of the JSON Schema organization.
