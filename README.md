@@ -22,9 +22,9 @@ If you want to review changes, creating documentation, help form suggestions or 
 
 If you find an issue you would like to work on you can drop a comment, ask questions or discuss the approaches. Or if you see we are missing specific things feel free to create new issues.
 
-We have a dedicated slack channel in the JSON Schema slack - join here: https://json-schema.slack.com/archives/C028A3HTY2X. 
+We have a dedicated slack channel `#vocab-idl`- in the JSON Schema slack, join the JSON Schema slack here: https://json-schema.org/slack. 
 
-You can use this channel if you don't know where to get started, want to hear peoples upon on dilemmas, or in general hang out.
+You can use this channel if you don't know where to get started, discuss specifics of issues, get updates, or in general hang out.
 
 ## Contributing
 In case contributions are for changing content on git, please refer to [git workflow](./git_workflow.md).
