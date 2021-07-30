@@ -1,12 +1,13 @@
 <h2 align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
   JSON Schema interface description language vocabulary
 </h2>
 <p align="center">
   <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
 </p>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Status
 
@@ -33,9 +34,6 @@ You can use this channel if you don't know where to get started, discuss specifi
 In case contributions are for changing content on git, please refer to [git workflow](./git_workflow.md).
 
 Any contributions that changes the content of this repository MUST go through pull requests.
-
-We use [All Contributors](https://allcontributors.org) specification to handle recognitions. You can help us out in many different ways. Just check out [this](https://allcontributors.org/docs/en/emoji-key) list of possible contributions. All of this is a contribution! 
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
