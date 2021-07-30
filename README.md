@@ -6,7 +6,7 @@
 </p>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Status
@@ -44,6 +44,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://benhutton.me"><img src="https://avatars.githubusercontent.com/u/731158?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Hutton</b></sub></a><br /><a href="https://github.com/json-schema-org/vocab-idl/pulls?q=is%3Apr+reviewed-by%3ARelequestual" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/jdesrosiers"><img src="https://avatars.githubusercontent.com/u/716571?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jason Desrosiers</b></sub></a><br /><a href="https://github.com/json-schema-org/vocab-idl/pulls?q=is%3Apr+reviewed-by%3Ajdesrosiers" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
