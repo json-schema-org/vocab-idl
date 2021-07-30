@@ -1,4 +1,7 @@
 <h2 align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   JSON Schema interface description language vocabulary
 </h2>
 <p align="center">
@@ -32,3 +35,23 @@ In case contributions are for changing content on git, please refer to [git work
 Any contributions that changes the content of this repository MUST go through pull requests.
 
 We use [All Contributors](https://allcontributors.org) specification to handle recognitions. You can help us out in many different ways. Just check out [this](https://allcontributors.org/docs/en/emoji-key) list of possible contributions. All of this is a contribution! 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://benhutton.me"><img src="https://avatars.githubusercontent.com/u/731158?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Hutton</b></sub></a><br /><a href="https://github.com/json-schema-org/vocab-idl/pulls?q=is%3Apr+reviewed-by%3ARelequestual" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
