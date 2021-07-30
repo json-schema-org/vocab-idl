@@ -5,6 +5,10 @@
   <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
 </p>
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ## Status
 
 While the project is only first getting started, the initial agenda is:
@@ -30,5 +34,22 @@ You can use this channel if you don't know where to get started, discuss specifi
 In case contributions are for changing content on git, please refer to [git workflow](./git_workflow.md).
 
 Any contributions that changes the content of this repository MUST go through pull requests.
+## Contributors ✨
 
-We use [All Contributors](https://allcontributors.org) specification to handle recognitions. You can help us out in many different ways. Just check out [this](https://allcontributors.org/docs/en/emoji-key) list of possible contributions. All of this is a contribution! 
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://benhutton.me"><img src="https://avatars.githubusercontent.com/u/731158?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Hutton</b></sub></a><br /><a href="https://github.com/json-schema-org/vocab-idl/pulls?q=is%3Apr+reviewed-by%3ARelequestual" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
