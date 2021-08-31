@@ -1,67 +1,44 @@
 [
-    {
-        "description": "not",
-        "schema": {
-            "not": {"type": "integer"}
+  {
+    "description": "Object properties",
+    "schema": {
+      "$id": "https://example.com/foo",
+      "$schema": "https://json-schema.org/draft/2020-12/idl-schema",
+      "name": "Foo",
+      "type": "object",
+      "properties": {
+        "aaa": {
+          "type": "string"
         },
-        "definition": {
-            "type":["object", "number", "string", "boolean", "array", "null"]
+        "bbb": {
+          "type": "boolean"
         }
+      }
     },
-    {
-        "description": "not multiple types",
-        "schema": {
-            "not": {"type": ["integer", "boolean"]}
+    "definition": {
+      "type": "object",
+      "name": "Foo",
+      "properties": {
+        "aaa": {
+          "type": "string"
         },
-        "definition": {
-            "type":["object", "number", "string", "array", "null"]
+        "bbb": {
+          "type": "boolean"
         }
-    },
-    {
-        "description": "not more complex schema",
-        "schema": {
-            "not": {
-                "type": "object",
-                "properties": {
-                    "foo": {
-                        "type": "string"
-                    }
-                }
-             }
-        },
-        "definition": {
-            "type":["object", "number", "string", "boolean", "integer", "array", "null"],
-            "required": "foo",
-            "properties": {
-                "foo": {
-                    "type":["object", "number", "string", "boolean", "array", "null"]
-                }
-            }
-        }
-    },
-    {
-        "description": "forbidden property. What about additional properties, they may contain foo which it must not?",
-        "schema": {
-            "properties": {
-                "foo": { 
-                    "not": {}
-                }
-            }
-        },
-        "definition": {
-            "type":["object", "number", "string", "boolean", "integer", "array", "null"]
-        }
-    },
-    {
-        "description": "not with boolean schema true",
-        "schema": {"not": true},
-        "definition": {}
-    },
-    {
-        "description": "not with boolean schema false",
-        "schema": {"not": false},
-        "definition": {
-            "type":["object", "number", "string", "boolean", "integer", "array", "null"]
-        }
+      }
     }
+  },
+  {
+    "description": "Empty object",
+    "schema": {
+      "$id": "https://example.com/foo",
+      "$schema": "https://json-schema.org/draft/2020-12/idl-schema",
+      "name": "Foo",
+      "type": "object"
+    },
+    "definition": {
+      "type": "object",
+      "name": "Foo"
+    }
+  }
 ]
