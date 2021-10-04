@@ -1,0 +1,48 @@
+[
+  {
+    "description": "Should have accurate property types",
+    "schemas": [
+      {
+        "type": "object",
+        "properties": {
+          "StringProperty": {
+            "type": "string"
+          },
+          "BooleanProperty": {
+            "type": "boolean"
+          },
+          "NumberProperty": {
+            "type": "number"
+          },
+          "NullProperty": {
+            "type": "null"
+          }
+        }
+      }
+    ],
+    "tests": [
+      {
+        "assertion": "hasClass",
+        "tests": [
+          {
+            "assertion": "hasProperty",
+            "tests": [
+              {
+                "assertion": "hasName",
+                "arguments": [
+                  "aaa"
+                ]
+              },
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "string"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

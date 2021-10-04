@@ -1,0 +1,67 @@
+[
+  {
+    "description": "A simple property example",
+    "schemas": [
+      {
+        "type": "object",
+        "properties": {
+          "aaa": {
+            "type": "string"
+          },
+          "bbb": {
+            "type": "boolean"
+          }
+        }
+      }
+    ],
+    "tests": [
+      {
+        "assertion": "hasClass",
+        "tests": [
+          {
+            "assertion": "hasProperty",
+            "tests": [
+              {
+                "assertion": "hasName",
+                "arguments": [
+                  "aaa"
+                ]
+              },
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "string",
+                  {
+                    "language": "java",
+                    "value": "String"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "tests": [
+              {
+                "assertion": "hasName",
+                "arguments": [
+                  "bbb"
+                ]
+              },
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "boolean",
+                  {
+                    "language": "java",
+                    "value": "Boolean"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
