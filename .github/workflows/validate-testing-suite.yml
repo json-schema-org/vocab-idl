@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 14
       - run: npm install -g ajv-cli
-      - run: ajv validate -s "./test-suite/schema.json" -d "./test-suite/idl-schema/**/*.json" --errors=text
+      - run: ajv validate -s "test-suite/schema.json" -d "./test-suite/idl-schema/**/*.json" --errors=text --spec=draft2020
