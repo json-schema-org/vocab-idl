@@ -7,7 +7,13 @@
         "description": {
           "type": "string"
         },
-        "schemas": true,
+        "schemas": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "https://json-schema.org/draft/2020-12/schema"
+          }
+        },
         "tests": {
           "type": "array",
           "minItems": 1,
