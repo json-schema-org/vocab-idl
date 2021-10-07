@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "definitions": {
+    "scenario": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "schemas": true,
+        "tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/hasClassAssertion" }
+            ]
+          }
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "baseAssertion": {
+      "type": "object",
+      "properties": {
+        "assertion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "assertion"
+      ]
+    },
+    "hasClassAssertion": {
+      "$ref": "#/definitions/baseAssertion",
+      "properties": {
+        "assertion": {
+          "const": "hasClass"
+        },
+        "tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/hasNameAssertion"
+              },
+              {
+                "$ref": "#/definitions/hasPropertyAssertion"
+              }
+            ]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "hasNameAssertion": {
+      "$ref": "#/definitions/baseAssertion",
+      "properties": {
+        "assertion": {
+          "const": "hasName"
+        },
+        "arguments": {
+          "type": "array",
+          "prefixItems": [ {"type": "string"} ]
+        }
+      },
+      "required": [
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    "hasPropertyAssertion": {
+      "$ref": "#/definitions/baseAssertion",
+      "properties": {
+        "assertion": {
+          "const": "hasProperty"
+        },
+        "tests": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "$ref": "#/definitions/hasNameAssertion"
+            },
+            {
+              "$ref": "#/definitions/hasTypeAssertion"
+            }
+          ]
+        }
+      },
+      "required": [
+        "tests"
+      ],
+      "additionalProperties": false
+    },
+    "hasTypeAssertion": {
+      "$ref": "#/definitions/baseAssertion",
+      "properties": {
+        "assertion": {
+          "const": "hasType"
+        },
+        "arguments": {
+          "type": "array",
+          "prefixItems": [ {"type": "string"} ],
+          "items": {"$ref":"#/definitions/languageSpecificType"}
+        }
+      },
+      "required": [
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    "languageSpecificType": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string" 
+        }
+      },
+      "required": [
+        "language",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/scenario"
+  }
+}

@@ -1,15 +1,23 @@
 [
   {
-    "description": "A simple property example",
+    "description": "Should have accurate property types",
     "schemas": [
       {
+        "$schema": "https://json-schema.org/draft/2020-12/idl-schema",
+        "name": "SomeTitle",
         "type": "object",
         "properties": {
-          "aaa": {
+          "StringProperty": {
             "type": "string"
           },
-          "bbb": {
+          "BooleanProperty": {
             "type": "boolean"
+          },
+          "NumberProperty": {
+            "type": "number"
+          },
+          "NullProperty": {
+            "type": "null"
           }
         }
       }
@@ -19,12 +27,18 @@
         "assertion": "hasClass",
         "tests": [
           {
+            "assertion": "hasName",
+            "arguments": [
+              "SomeTitle"
+            ]
+          },
+          {
             "assertion": "hasProperty",
             "tests": [
               {
                 "assertion": "hasName",
                 "arguments": [
-                  "aaa"
+                  "StringProperty"
                 ]
               },
               {
@@ -41,13 +55,30 @@
               {
                 "assertion": "hasName",
                 "arguments": [
-                  "bbb"
+                  "BooleanProperty"
                 ]
               },
               {
                 "assertion": "hasType",
                 "arguments": [
                   "boolean"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "tests": [
+              {
+                "assertion": "hasName",
+                "arguments": [
+                  "NumberProperty"
+                ]
+              },
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "number"
                 ]
               }
             ]

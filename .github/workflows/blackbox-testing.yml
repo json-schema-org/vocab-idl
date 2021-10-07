@@ -1,0 +1,17 @@
+name: Validate test suite files
+on:
+  push:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+jobs:
+  validate:
+    name: Validate test suite files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm install -g ajv-cli
+      - run: ajv validate -s "./test-suite/schema.json" -d "./test-suite/idl-schema/**/*.json" --errors=text
