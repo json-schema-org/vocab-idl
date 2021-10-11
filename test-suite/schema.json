@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "definitions": {
+  "$defs": {
     "scenario": {
       "type": "object",
       "properties": {
@@ -19,7 +19,7 @@
           "minItems": 1,
           "items": {
             "anyOf": [
-              { "$ref": "#/definitions/hasClassAssertion" }
+              { "$ref": "#/$defs/hasClassAssertion" }
             ]
           }
         }
@@ -41,7 +41,7 @@
       ]
     },
     "hasClassAssertion": {
-      "$ref": "#/definitions/baseAssertion",
+      "$ref": "#/$defs/baseAssertion",
       "properties": {
         "assertion": {
           "const": "hasClass"
@@ -52,10 +52,10 @@
           "items": {
             "anyOf": [
               {
-                "$ref": "#/definitions/hasNameAssertion"
+                "$ref": "#/$defs/hasNameAssertion"
               },
               {
-                "$ref": "#/definitions/hasPropertyAssertion"
+                "$ref": "#/$defs/hasPropertyAssertion"
               }
             ]
           }
@@ -64,7 +64,7 @@
       "additionalProperties": false
     },
     "hasNameAssertion": {
-      "$ref": "#/definitions/baseAssertion",
+      "$ref": "#/$defs/baseAssertion",
       "properties": {
         "assertion": {
           "const": "hasName"
@@ -80,7 +80,7 @@
       "additionalProperties": false
     },
     "hasPropertyAssertion": {
-      "$ref": "#/definitions/baseAssertion",
+      "$ref": "#/$defs/baseAssertion",
       "properties": {
         "assertion": {
           "const": "hasProperty"
@@ -89,10 +89,10 @@
           "type": "array",
           "prefixItems": [
             {
-              "$ref": "#/definitions/hasNameAssertion"
+              "$ref": "#/$defs/hasNameAssertion"
             },
             {
-              "$ref": "#/definitions/hasTypeAssertion"
+              "$ref": "#/$defs/hasTypeAssertion"
             }
           ]
         }
@@ -103,7 +103,7 @@
       "additionalProperties": false
     },
     "hasTypeAssertion": {
-      "$ref": "#/definitions/baseAssertion",
+      "$ref": "#/$defs/baseAssertion",
       "properties": {
         "assertion": {
           "const": "hasType"
@@ -111,7 +111,7 @@
         "arguments": {
           "type": "array",
           "prefixItems": [ {"type": "string"} ],
-          "items": {"$ref":"#/definitions/languageSpecificType"}
+          "items": {"$ref":"#/$defs/languageSpecificType"}
         }
       },
       "required": [
@@ -138,6 +138,6 @@
   },
   "type": "array",
   "items": {
-    "$ref": "#/definitions/scenario"
+    "$ref": "#/$defs/scenario"
   }
 }
