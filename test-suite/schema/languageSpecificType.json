@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "language": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "language",
+    "type"
+  ],
+  "additionalProperties": false
+}
+}
