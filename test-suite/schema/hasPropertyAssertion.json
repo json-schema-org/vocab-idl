@@ -6,14 +6,16 @@
     },
     "tests": {
       "type": "array",
-      "prefixItems": [
-        {
-          "$ref": "./hasNameAssertion.json"
-        },
-        {
-          "$ref": "./hasTypeAssertion.json"
-        }
-      ]
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "./hasNameAssertion.json"
+          },
+          {
+            "$ref": "./hasTypeAssertion.json"
+          }
+        ]
+      }
     }
   },
   "required": [
