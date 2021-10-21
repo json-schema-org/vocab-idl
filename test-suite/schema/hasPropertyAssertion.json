@@ -4,13 +4,18 @@
     "assertion": {
       "const": "hasProperty"
     },
+    "arguments": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "string"
+        }
+      ]
+    },
     "tests": {
       "type": "array",
       "items": {
         "anyOf": [
-          {
-            "$ref": "./hasNameAssertion.json"
-          },
           {
             "$ref": "./hasTypeAssertion.json"
           }
@@ -19,7 +24,7 @@
     }
   },
   "required": [
-    "tests"
+    "arguments"
   ],
   "additionalProperties": false
 }

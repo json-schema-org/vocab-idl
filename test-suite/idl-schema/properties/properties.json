@@ -34,13 +34,10 @@
           },
           {
             "assertion": "hasProperty",
+            "arguments": [
+              "StringProperty"
+            ],
             "tests": [
-              {
-                "assertion": "hasName",
-                "arguments": [
-                  "StringProperty"
-                ]
-              },
               {
                 "assertion": "hasType",
                 "arguments": [
