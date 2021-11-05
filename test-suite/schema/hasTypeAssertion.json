@@ -10,10 +10,7 @@
         {
           "type": "string"
         }
-      ],
-      "items": {
-        "$ref": "./languageSpecificType.json"
-      }
+      ]
     }
   },
   "required": [
