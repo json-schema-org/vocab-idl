@@ -25,13 +25,10 @@
     "tests": [
       {
         "assertion": "hasClass",
+        "arguments": [
+          "SomeTitle"
+        ],
         "tests": [
-          {
-            "assertion": "hasName",
-            "arguments": [
-              "SomeTitle"
-            ]
-          },
           {
             "assertion": "hasProperty",
             "arguments": [
@@ -48,13 +45,10 @@
           },
           {
             "assertion": "hasProperty",
+            "arguments": [
+              "BooleanProperty"
+            ],
             "tests": [
-              {
-                "assertion": "hasName",
-                "arguments": [
-                  "BooleanProperty"
-                ]
-              },
               {
                 "assertion": "hasType",
                 "arguments": [
@@ -65,13 +59,10 @@
           },
           {
             "assertion": "hasProperty",
+            "arguments": [
+              "NumberProperty"
+            ],
             "tests": [
-              {
-                "assertion": "hasName",
-                "arguments": [
-                  "NumberProperty"
-                ]
-              },
               {
                 "assertion": "hasType",
                 "arguments": [

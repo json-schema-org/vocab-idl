@@ -11,13 +11,8 @@
     "tests": [
       {
         "assertion": "hasClass",
-        "tests": [
-          {
-            "assertion": "hasName",
-            "arguments": [
-              "SomeTitle"
-            ]
-          }
+        "arguments": [
+          "SomeTitle"
         ]
       }
     ]
