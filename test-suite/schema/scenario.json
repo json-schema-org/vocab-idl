@@ -19,7 +19,7 @@
       "items": {
         "anyOf": [
           {
-            "$ref": "./hasClassAssertion.json"
+            "$ref": "hasClassAssertion.json"
           }
         ]
       }
