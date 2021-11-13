@@ -1,0 +1,78 @@
+[
+  {
+    "description": "Should have accurate property types",
+    "schemas": [
+      {
+        "$schema": "https://json-schema.org/draft/2020-12/idl-schema",
+        "name": "SomeTitle",
+        "type": "object",
+        "properties": {
+          "StringProperty": {
+            "type": "string"
+          },
+          "BooleanProperty": {
+            "type": "boolean"
+          },
+          "NumberProperty": {
+            "type": "number"
+          },
+          "NullProperty": {
+            "type": "null"
+          }
+        }
+      }
+    ],
+    "tests": [
+      {
+        "assertion": "hasClass",
+        "arguments": [
+          "SomeTitle"
+        ],
+        "tests": [
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "StringProperty"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "string"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "BooleanProperty"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "boolean"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "NumberProperty"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "number"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

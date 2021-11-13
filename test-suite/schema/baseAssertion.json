@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "assertion": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "assertion"
+  ]
+}

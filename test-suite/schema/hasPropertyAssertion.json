@@ -1,0 +1,30 @@
+{
+  "$ref": "./baseAssertion.json",
+  "properties": {
+    "assertion": {
+      "const": "hasProperty"
+    },
+    "arguments": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "./hasTypeAssertion.json"
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "arguments"
+  ],
+  "additionalProperties": false
+}
