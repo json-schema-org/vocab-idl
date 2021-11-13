@@ -70,6 +70,20 @@
                 ]
               }
             ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "NullProperty"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "null"
+                ]
+              }
+            ]
           }
         ]
       }
