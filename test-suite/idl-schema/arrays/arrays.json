@@ -1,0 +1,154 @@
+[
+  {
+    "description": "Should have accurate array",
+    "schemas": [
+      {
+        "$schema": "https://json-schema.org/draft/2020-12/idl-schema",
+        "name": "SomeTitle",
+        "type": "object",
+        "properties": {
+          "NumberArray": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "StringArray": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "BooleanArray": {
+            "type": "array",
+            "items": {
+              "type": "boolean"
+            }
+          },
+          "NullArray": {
+            "type": "array",
+            "items": {
+              "type": "null"
+            }
+          },
+          "ObjectArray": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "ObjectArrayInArray": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "tests": [
+      {
+        "assertion": "hasClass",
+        "arguments": [
+          "SomeTitle"
+        ],
+        "tests": [
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "NumberArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "number"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "StringArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "string"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "BooleanArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "boolean"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "NullArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "null"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "ObjectArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "object"
+                ]
+              }
+            ]
+          },
+          {
+            "assertion": "hasProperty",
+            "arguments": [
+              "ObjectArrayInArray"
+            ],
+            "tests": [
+              {
+                "assertion": "hasType",
+                "arguments": [
+                  "array",
+                  "array",
+                  "object"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
