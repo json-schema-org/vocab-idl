@@ -20,7 +20,7 @@ In the example above it means that we have an array of strings. Restriction to t
 | number | number | double
 | string | string | String
 | boolean | boolean | boolean
-| null | null | `JsonNull.getInstance()`
+| null | null | JsonNull
 | object | any | Object
 | array< Type > | < Type >[] | List< Type >
 
