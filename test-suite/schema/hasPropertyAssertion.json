@@ -1,5 +1,7 @@
 {
-  "$ref": "./baseAssertion.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hasPropertyAssertion.json",
+  "$ref": "baseAssertion.json",
   "properties": {
     "assertion": {
       "const": "hasProperty"
@@ -17,7 +19,7 @@
       "items": {
         "anyOf": [
           {
-            "$ref": "./hasTypeAssertion.json"
+            "$ref": "hasTypeAssertion.json"
           }
         ]
       }

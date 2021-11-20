@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scenario.json",
   "type": "object",
   "properties": {
     "description": {
@@ -17,7 +19,7 @@
       "items": {
         "anyOf": [
           {
-            "$ref": "./hasClassAssertion.json"
+            "$ref": "hasClassAssertion.json"
           }
         ]
       }
