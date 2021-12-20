@@ -1,6 +1,11 @@
 <h2 align="center">
   JSON Schema interface description language vocabulary
 </h2>
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Financial Contributors on Open Collective](https://opencollective.com/json-schema/all/badge.svg?label=financial+contributors)](https://opencollective.com/json-schema) 
+
 <p align="center">
   <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
 </p>
