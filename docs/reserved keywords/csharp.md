@@ -1,6 +1,7 @@
 ## Reserved keywords for Go
 We do not guarantee this list of keywords are complete, however, if you find anything missing, please provide a PR!
 
+```
 abstract 
 as 
 base 
@@ -77,4 +78,5 @@ using
 virtual 
 void 
 volatile 
-while'
+while
+```

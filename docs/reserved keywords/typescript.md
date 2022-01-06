@@ -1,6 +1,7 @@
 ## Reserved keywords for TypeScript
 We do not guarantee this list of keywords are complete, however, if you find anything missing, please provide a PR!
 
+```
 abstract
 as
 base
@@ -78,3 +79,4 @@ virtual
 void
 volatile
 while
+```

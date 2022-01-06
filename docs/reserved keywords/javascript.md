@@ -2,6 +2,7 @@
 We do not guarantee this list of keywords are complete, however, if you find anything missing, please provide a PR!
 
 ### Standard reserved keywords
+```
 abstract 
 arguments 
 await 
@@ -66,7 +67,9 @@ volatile
 while 
 with 
 yield 
+```
 ### Reserved for > ECMAScript 5/6
+```
 abstract 
 boolean 
 byte 
@@ -83,7 +86,9 @@ synchronized
 throws 
 transient 
 volatile 
+```
 ### Reserved built-in objects, properties and methods
+```
 hasOwnProperty 
 Infinity 
 isFinite 
@@ -100,18 +105,21 @@ String
 toString 
 undefined 
 valueOf 
+```
 
 ### Java reserved words
 JavaScript is often used together with Java, in those cases, these words are reserved.
 
+```
 getClass 
 java 
 JavaArray 
 javaClass 
 JavaObject 
 JavaPackage 
-
+```
 ### Other reserved words
+```
 alert 
 all 
 anchor 
@@ -196,4 +204,5 @@ textarea
 top 
 unescape 
 untaint 
-window'
+window
+```
