@@ -24,7 +24,7 @@ The JSON Schema organization will force this project to comply with the organiza
 
 The SIG members are no different from the regular community besides it is their responsibility to understand all points of view of the community and push the project forward.
 
-The community can get involved by jumping into discussions in issues, pull requests, etc, as long as the [Code of Conduct](./CODE_OF_CONDUCT.md) and [git workflow](./git_workflow.md) is adhered to.
+The community can get involved by jumping into discussions in issues, pull requests, etc, as long as the [Code of Conduct](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md) and [git workflow](./git_workflow.md) is adhered to.
 
 SIG memberships are not time-limited. There is no maximum size of the SIG. It is expected that the SIG members actively participate in discussions and maintain the repository, otherwise they will remain a contributor.
 
