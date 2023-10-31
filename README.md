@@ -27,7 +27,7 @@ To help explain the process, the project, the SIG and the community, in terms of
 
 ## Code of Conduct
 
-Respect each other. Choose empathy over judgement. Act according to the [Code of Conduct](./CODE_OF_CONDUCT.md).
+Respect each other. Choose empathy over judgement. Act according to the [Code of Conduct](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Getting involved
 
