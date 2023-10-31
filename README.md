@@ -7,7 +7,7 @@
 [![Financial Contributors on Open Collective](https://opencollective.com/json-schema/all/badge.svg?label=financial+contributors)](https://opencollective.com/json-schema) 
 
 <p align="center">
-  <em>Help and clarify how JSON Schema can be interpreted from validation rules to data definition. This extends to how those data definitions can be represented in any programming language</em>
+  <em>Help and clarify how data definition and JSON Schema's validation rules can interact. This includes how those validation rules can represent code in any programming language.</em>
 </p>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -17,16 +17,20 @@
 ## Status
 
 While the project is only first getting started, the initial agenda is:
-1. Define a processing model for interpreting JSON Schema to data definitions.
-    * Define code generation vocabulary as needed, while the processing model is being defined
+1. Identify programming language paradigms and determine how they might interact with JSON Schema.
+2. Identify areas where JSON Schema is insufficiently expressive to handle these language paradigms and define a new vocabulary to fill the gaps.
+3. Define a processing model for translating between data definition and JSON Schema.
 
 ## Charter
+
 To help explain the process, the project, the SIG and the community, in terms of how they all relate, please refer to the [charter](./charter.md).
 
 ## Code of Conduct
+
 Respect each other. Choose empathy over judgement. Act according to the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Getting involved
+
 If you want to review changes, creating documentation, help form suggestions or take charge in figuring out a specific task, we welcome any way you want to get involved.
 
 If you find an issue you would like to work on you can drop a comment, ask questions or discuss the approaches. Or if you see we are missing specific things feel free to create new issues.
@@ -36,9 +40,11 @@ We have a dedicated slack channel `#vocab-idl`- in the JSON Schema slack, join t
 You can use this channel if you don't know where to get started, discuss specifics of issues, get updates, or in general hang out.
 
 ## Contributing
+
 In case contributions are for changing content on git, please refer to [git workflow](./git_workflow.md).
 
 Any contributions that changes the content of this repository MUST go through pull requests.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
